@@ -1,0 +1,19 @@
+{
+  "name": "ezmail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/maildev/bin/maildev --web 8080 --smtp 443"
+  },
+  "author": "BEKK",
+  "license": "MIT",
+  "dependencies": {
+    "maildev": "^0.14.0"
+  },
+  "engines": {
+    "node": ">=6.3.0",
+    "npm": ">=3.10.0"
+  }
+}
